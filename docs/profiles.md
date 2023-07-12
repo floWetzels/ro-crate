@@ -251,6 +251,8 @@ In the future, the ARC profile will be extended to not only cover the ISA part o
 
 The top-level metadata of an ARC consists of the following types, which represent the `Investigation`, `Person` and `Publication` types of the ISA model. More details can be found in the [arc-to-rocrate](https://github.com/nfdi4plants/arc-to-rocrate) repository.
 
+### Investigation Profile
+
 - [`Dataset`](http://schema.org/dataset)
   - [`identifier`](http://schema.org/identifier): [`Text`](https://schema.org/Text) or [`URL`](https://schema.org/URL) (required)
   - [`headline`](http://schema.org/headline): [`Text`](https://schema.org/Text) (required)
