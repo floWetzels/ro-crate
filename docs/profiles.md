@@ -242,16 +242,16 @@ _Note that some RO-Crates in the [Modern PARADISEC demonstrator](https://mod.par
 ## ARC RO-Crate profile
 
 A profile of RO-Crate for [Annotated Research Contexts](https://nfdi4plants.org/content/learn-more/annotated-research-context.html) (ARC), developed by [DataPLANT](https://nfdi4plants.org/).
-An ARC consists of [ISA](https://isa-specs.readthedocs.io/en/latest/isamodel.html) metadata describing the experimental setup and computational workflows described in CWL.
+An ARC consists of [ISA](https://isa-specs.readthedocs.io/en/latest/isamodel.html) metadata describing the experimental setup and computational workflows given in CWL.
 The current [profile](https://github.com/nfdi4plants/ARC-specification/blob/main/ARC%20specification.md#appendix-conversion-of-arcs-to-ro-crates) requires the crate to follow the ISA Investigation profile on the top level.
 In the future, the ARC profile will be extended to not only cover the ISA part of an ARC, but also computational workflows, following the existing profiles for this kind of data.
-
-How such an RO-Crate can be generated from an ARC is described [arc-to-rocrate](https://github.com/nfdi4plants/arc-to-rocrate) repository, which also contains scripts to perform the conversion.
 At the moment, the ISA profile only contains the top-level `Investigation` metadata.
+
+How such an RO-Crate can be generated from an ARC is described in the [arc-to-rocrate](https://github.com/nfdi4plants/arc-to-rocrate) repository, which also contains scripts to perform the conversion.
 
 ## ISA Profile
 
-A profile of RO-Crate for experimental data in plant sciences that is described in the [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html).
+A profile of RO-Crate for experimental data in plant sciences that is described by metadata following the [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html).
 Such datasets consist of three types of data entities: `Investigation`, `Study` and `Assay`.
 The [profile](https://github.com/nfdi4plants/arc-to-rocrate/blob/main/profiles/investigation.md) adds requirements of the crate such that the folders match the Investigation, Study and Assay objects of the [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html).
 
